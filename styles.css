@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #08083c;
+    color: #0e0606;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: rgba(255, 251, 251, 0.954);
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #c89aef; /* Change color on hover */
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px; /* Adjust for fixed navbar height */
+}
+
+#home {
+    height: 100vh;
+    background-color: #a5a0ec;
+    background-image: -moz-repeating-linear-gradient();
+}
+
+#about {
+    height: 100vh;
+    background-color: #a5a2f9;
+}
+
+#services {
+    height: 100vh;
+    background-color: #a6bdf3;
+}
+
+#contact {
+    height: 100vh;
+    background-color: #a2c3f6;
+}
+
+.scrolled {
+    background-color: #030914; /* Change background when scrolled */
+}
